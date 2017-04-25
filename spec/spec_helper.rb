@@ -1,3 +1,8 @@
+require 'simplecov'
+SimpleCov.start
+
+require 'codecov'
+SimpleCov.formatter = SimpleCov::Formatter::Codecov
 require 'rack/test'
 require 'rspec'
 require_relative '../app.rb'

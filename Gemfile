@@ -10,6 +10,7 @@ group :development do
 end
 
 group :test do
+  gem 'codecov', require: false
   gem 'rack-test'
   gem 'rspec'
 end
