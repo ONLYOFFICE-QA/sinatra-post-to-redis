@@ -1,0 +1,6 @@
+development:
+  redis_host: localhost
+test:
+  redis_host: localhost
+production:
+  redis_host: redis
