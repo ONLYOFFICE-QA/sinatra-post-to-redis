@@ -1,8 +1,11 @@
 require 'json'
 require 'redis'
 require 'sinatra'
+require 'sinatra/config_file'
 
-redis = Redis.new
+config_file 'config.yml'
+
+redis = Redis.new(host: settings.redis_host)
 list_name = 'sinatra_commands'
 
 post '/' do
