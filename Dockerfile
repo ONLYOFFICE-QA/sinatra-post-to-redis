@@ -1,4 +1,4 @@
-FROM ruby:2.4.1
+FROM ruby:2.5.0
 
 COPY . /root/sinatra-post-to-redis
 WORKDIR /root/sinatra-post-to-redis
