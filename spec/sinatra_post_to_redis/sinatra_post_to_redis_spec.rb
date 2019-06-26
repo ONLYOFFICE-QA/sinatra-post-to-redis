@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 describe 'SinatraPostToRedis' do
   it 'should allow send post notification' do
