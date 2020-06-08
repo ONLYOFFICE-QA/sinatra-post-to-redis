@@ -6,6 +6,7 @@
 
 * Use `alpine` as base image
 * Use `bundle config` to not install extra gems
+* Use Github Actions instead of TravisCI
 
 ### Fixes
 
