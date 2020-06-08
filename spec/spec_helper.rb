@@ -11,8 +11,11 @@ require_relative '../app.rb'
 
 ENV['RACK_ENV'] = 'test'
 
+# Module to setup rack test in sinatra
 module RSpecMixin
   include Rack::Test::Methods
+
+  # @return [Sinatra::Application] this application
   def app
     Sinatra::Application
   end
