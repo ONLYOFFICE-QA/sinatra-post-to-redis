@@ -12,3 +12,9 @@
 ### Fixes
 
 * Do not call `bash` in Dockerfile CMD
+
+### Changes
+
+* Remove usage of `codecov`
+* Check `simplecov` coverage result in GitHub Actions
+
