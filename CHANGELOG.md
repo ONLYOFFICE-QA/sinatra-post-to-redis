@@ -12,3 +12,7 @@
 ### Fixes
 
 * Do not call `bash` in Dockerfile CMD
+
+### Changes
+
+* Remove usage of `codecov`
