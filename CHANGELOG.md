@@ -16,5 +16,3 @@
 ### Changes
 
 * Remove usage of `codecov`
-* Check `simplecov` coverage result in GitHub Actions
-
