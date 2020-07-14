@@ -5,7 +5,7 @@ SimpleCov.start
 
 require 'rack/test'
 require 'rspec'
-require_relative '../app.rb'
+require_relative '../app'
 
 ENV['RACK_ENV'] = 'test'
 
