@@ -17,4 +17,3 @@
 
 * Remove usage of `codecov`
 * Drop ruby 2.4 support, since it's EOLed
-
