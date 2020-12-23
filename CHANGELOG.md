@@ -8,6 +8,7 @@
 * Use `bundle config` to not install extra gems
 * Use Github Actions instead of TravisCI
 * Add `yard` as development dependency
+* Add `dependabot` config
 
 ### Fixes
 
