@@ -9,6 +9,7 @@
 * Use Github Actions instead of TravisCI
 * Add `yard` as development dependency
 * Add `dependabot` config
+* Add support of `rubocop-performance` and `rubocop-rspec`
 
 ### Fixes
 
