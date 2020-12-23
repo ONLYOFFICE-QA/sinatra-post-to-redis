@@ -13,7 +13,7 @@ describe 'SinatraPostToRedis' do
     expect(last_response.status).to eq 200
   end
 
-  it 'sucessfull get data from redis' do
+  it 'successful get data from redis' do
     redis = Redis.new
     queue_data = JSON.parse(redis.rpop('sinatra_commands'))
     expect(queue_data['notification']).to eq('hello rspec')
