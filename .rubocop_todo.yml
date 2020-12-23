@@ -12,13 +12,6 @@ RSpec/ExampleLength:
   Exclude:
     - 'spec/sinatra_post_to_redis/sinatra_post_to_redis_spec.rb'
 
-# Offense count: 2
-# Cop supports --auto-correct.
-# Configuration parameters: CustomTransform, IgnoredWords.
-RSpec/ExampleWording:
-  Exclude:
-    - 'spec/sinatra_post_to_redis/sinatra_post_to_redis_spec.rb'
-
 # Offense count: 1
 RSpec/MultipleExpectations:
   Max: 4

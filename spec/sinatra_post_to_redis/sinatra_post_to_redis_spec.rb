@@ -2,13 +2,13 @@
 
 require 'spec_helper'
 describe 'SinatraPostToRedis' do
-  it 'should allow send post notification' do
+  it 'allows send post notification' do
     post '/', notification: 'hello rspec'
 
     expect(last_response.status).to eq 200
   end
 
-  it 'should allow post with two params' do
+  it 'allows post with two params' do
     post '/', notification: 'hello rspec2', chat: 'test_chat'
     expect(last_response.status).to eq 200
   end
