@@ -2,6 +2,8 @@
 
 require 'spec_helper'
 describe 'SinatraPostToRedis' do
+  let(:redis) { Redis.new }
+
   it 'allows send post notification' do
     post '/', notification: 'hello rspec'
 
@@ -13,14 +15,14 @@ describe 'SinatraPostToRedis' do
     expect(last_response.status).to eq 200
   end
 
-  it 'successful get data from redis' do
-    redis = Redis.new
-    queue_data = JSON.parse(redis.rpop('sinatra_commands'))
-    expect(queue_data['notification']).to eq('hello rspec')
-    expect(queue_data['chat']).to be_nil
+  it 'first_data is correct' do
+    first_data = JSON.parse(redis.rpop('sinatra_commands'))
+    expect(first_data).to eq({ 'notification' => 'hello rspec' })
+  end
 
-    queue_data = JSON.parse(redis.rpop('sinatra_commands'))
-    expect(queue_data['notification']).to eq('hello rspec2')
-    expect(queue_data['chat']).to eq('test_chat')
+  it 'second data chart is correct' do
+    second_data = JSON.parse(redis.rpop('sinatra_commands'))
+    expect(second_data).to eq({ 'notification' => 'hello rspec2',
+                                'chat' => 'test_chat' })
   end
 end
