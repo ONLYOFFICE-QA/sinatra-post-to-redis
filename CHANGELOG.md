@@ -5,6 +5,7 @@
 ### New Features
 
 * Add `ruby-3.0` to CI
+* Add check of branch test coverage to CI
 
 ## 1.0.0 (2020-12-23)
 
