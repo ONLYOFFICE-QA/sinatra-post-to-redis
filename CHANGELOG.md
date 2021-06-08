@@ -6,6 +6,7 @@
 
 * Add `ruby-3.0` to CI
 * Add check of branch test coverage to CI
+* Add `GitHub Action` task to push image to Docker Hub
 
 ## 1.0.0 (2020-12-23)
 
