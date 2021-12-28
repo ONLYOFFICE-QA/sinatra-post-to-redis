@@ -5,8 +5,13 @@
 ### New Features
 
 * Add `ruby-3.0` to CI
+* Add `ruby-3.1` in CI
 * Add check of branch test coverage to CI
 * Add `GitHub Action` task to push image to Docker Hub
+
+### Changes
+
+* Remove `ruby-2.5` from CI since it's EOLed
 
 ## 1.0.0 (2020-12-23)
 
