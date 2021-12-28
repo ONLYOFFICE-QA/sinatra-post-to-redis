@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'redis'
 gem 'sinatra'
 gem 'sinatra-contrib'
+gem 'webrick'
 
 group :development do
   gem 'overcommit', require: false
