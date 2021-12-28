@@ -93,6 +93,7 @@ DEPENDENCIES
   simplecov
   sinatra
   sinatra-contrib
+  webrick
   yard
 
 BUNDLED WITH

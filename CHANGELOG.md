@@ -9,10 +9,12 @@
 * Add check of branch test coverage to CI
 * Add `GitHub Action` task to push image to Docker Hub
 * Add docker base image `dependabot` check
+* Add check to CI that container can be run
 
 ### Fixes
 
 * Fix missing `markdownlint` config
+* Fix missing `webrick` dependency
 
 ### Changes
 
