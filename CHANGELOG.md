@@ -14,6 +14,7 @@
 ### Fixes
 
 * Fix missing `markdownlint` config
+* Fix missing `webrick` dependency
 
 ### Changes
 
