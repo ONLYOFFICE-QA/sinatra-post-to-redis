@@ -9,6 +9,10 @@
 * Add check of branch test coverage to CI
 * Add `GitHub Action` task to push image to Docker Hub
 
+### Fixes
+
+* Fix missing `markdownlint` config
+
 ### Changes
 
 * Remove `ruby-2.5` from CI since it's EOLed
