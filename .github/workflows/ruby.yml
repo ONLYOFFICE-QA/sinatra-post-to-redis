@@ -36,7 +36,7 @@ jobs:
       run: docker build . --tag sinatra-post-to-redis
     - name: Service can be run
       run: |
-        docker run --name=sinatra-post-to-redis sinatra-post-to-redis
+        docker run -d --name=sinatra-post-to-redis sinatra-post-to-redis
         sleep 10
         docker exec sinatra-post-to-redis true
   code-style:
