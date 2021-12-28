@@ -8,6 +8,7 @@
 * Add `ruby-3.1` in CI
 * Add check of branch test coverage to CI
 * Add `GitHub Action` task to push image to Docker Hub
+* Add docker base image `dependabot` check
 
 ### Fixes
 
