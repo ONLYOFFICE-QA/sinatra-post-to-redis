@@ -15,6 +15,7 @@
 
 * Fix missing `markdownlint` config
 * Fix missing `webrick` dependency
+* Fix `markdownlint` failure because of old `nodejs` in CI
 
 ### Changes
 
