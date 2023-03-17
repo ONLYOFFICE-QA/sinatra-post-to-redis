@@ -16,6 +16,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: onlyofficeqa/sinatra-post-to-redis:latest
+          tags: onlyoffice/sinatra-post-to-redis:latest
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
