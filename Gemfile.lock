@@ -16,8 +16,10 @@ GEM
       iniparse (~> 1.4)
       rexml (~> 3.2)
     parallel (1.23.0)
-    parser (3.2.2.1)
+    parser (3.2.2.3)
       ast (~> 2.4.1)
+      racc
+    racc (1.7.1)
     rack (2.2.7)
     rack-protection (3.0.6)
       rack
