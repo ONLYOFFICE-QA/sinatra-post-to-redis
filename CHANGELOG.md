@@ -11,6 +11,7 @@
 * Add docker base image `dependabot` check
 * Add check to CI that container can be run
 * Add `yamllint` check in CI
+* Add `dependabot` check for `GitHub Actions`
 
 ### Fixes
 
