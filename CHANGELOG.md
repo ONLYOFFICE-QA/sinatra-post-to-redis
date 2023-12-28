@@ -35,8 +35,6 @@
 * Add `dependabot` config
 * Add support of `rubocop-performance` and `rubocop-rspec`
 
-* Add `dependabot` check for `GitHub Actions`
-
 ### Fixes
 
 * Do not call `bash` in Dockerfile CMD
