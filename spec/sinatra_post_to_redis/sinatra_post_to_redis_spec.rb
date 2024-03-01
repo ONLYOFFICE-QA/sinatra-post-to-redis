@@ -7,12 +7,12 @@ describe 'SinatraPostToRedis' do
   it 'allows send post notification' do
     post '/', notification: 'hello rspec'
 
-    expect(last_response).to have_http_status :ok
+    expect(last_response.status).to eq 200
   end
 
   it 'allows post with two params' do
     post '/', notification: 'hello rspec2', chat: 'test_chat'
-    expect(last_response).to have_http_status :ok
+    expect(last_response.status).to eq 200
   end
 
   it 'first_data is correct' do
