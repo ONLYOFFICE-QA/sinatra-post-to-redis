@@ -22,6 +22,7 @@
 
 * Check `dependabot` at 8:00 Moscow time daily
 * Fix `rubocop-rspec-2.27.0` cop `RSpec/Rails/HttpStatus` warnings.
+* Migrate to `sinatra-4`
 
 ## 1.0.0 (2020-12-23)
 

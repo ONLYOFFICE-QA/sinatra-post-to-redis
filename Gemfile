@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 ruby '>= 3.3'
 
+gem "rackup"
 gem 'redis'
 gem 'sinatra'
 gem 'sinatra-contrib'
