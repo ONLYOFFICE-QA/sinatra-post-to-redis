@@ -7,6 +7,8 @@ require 'sinatra/config_file'
 
 config_file 'config.yml'
 
+set :host_authorization, { permitted_hosts: [] }
+
 redis = Redis.new(host: settings.redis_host)
 list_name = 'sinatra_commands'
 
