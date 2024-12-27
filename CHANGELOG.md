@@ -4,7 +4,7 @@
 
 ### New Features
 
-* Use `ruby-3.3` as application base
+* Use `ruby-3.4` as application base
 * Add check of branch test coverage to CI
 * Add `GitHub Action` task to push image to Docker Hub
 * Add docker base image `dependabot` check
