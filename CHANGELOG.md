@@ -17,6 +17,7 @@
 * Fix missing `markdownlint` config
 * Fix missing `webrick` dependency
 * Fix `markdownlint` failure because of old `nodejs` in CI
+* Run `rubocop` in CI through `bundle exec`
 
 ### Changes
 
